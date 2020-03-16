@@ -1,11 +1,191 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SKYi</title>
-</head>
-<body>
-    <h1>Init</h1>
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>About</title>
+
+        <!-- jquery 3.4.1 slim -->
+        <!-- bootstrap 4.4.1 -->
+        <!-- fontawesome 5.12.1 -->
+
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/all.min.css">
+        <link rel="stylesheet" href="/css/app.css">
+    </head>
+
+    <body>
+
+        <header class="container-fluid sticky-top">
+            <nav class="navbar navbar-dark">
+                <a class="navbar-brand h1" href="#"><i class="fas fa-cat"></i> <span>SKYi.</span></a>
+                <ul class="navbar-nav flex-row">
+                    <li class="nav-item"><button class="nav-link page-nav active" type="button" id="btn_work"><span>WORK</span></button></li>
+                    <li class="nav-item"><button class="nav-link page-nav" type="button" id="btn_about"><span>ABOUT</span></button></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="main_page">
+            <article id="work">
+                <h1><span>WORK</span></h1>
+                <section class="carousel slide" id="work_slide" data-ride="carousel" data-interval="6000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#work_slide" data-slide-to="0" class="active"></li>
+                        <li data-target="#work_slide" data-slide-to="1"></li>
+                        <li data-target="#work_slide" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <article class="carousel-item active">
+                            <div class="bg-img" style="background-image: url('/media/work/wrk_01_bg.jpg');"><img src="/media/work/wrk_01_bg.jpg" title="Hanssem China VR Screenshot" /></div>
+                            <div class="container-fluid carousel-caption">
+                                <div class="row justify-content-between align-items-end">
+                                    <div class="col-sm-12 col-md-6 col-lg-8 mb-3">
+                                        <h2><span>Hanssem China VR</span></h2>
+                                        <a href="http://site.hanssem.com.cn/720vr/" target="_blank"><i class="fas fa-external-link-square-alt"></i> <span>http://site.hanssem.com.cn/720vr/</span></a>
+                                        <ul class="tag">
+                                            <li><span>UI/UX</span></li>
+                                            <li><span>PUBLISHING</span></li>
+                                            <li><span>FRONT-END</span></li>
+                                            <li><span>WebVR</span></li>
+                                            <li><span>HTML/CSS</span></li>
+                                            <li><span>XML</span></li>
+                                            <li><span>JQUERY</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                                        <div class="row">
+                                            <div class="col-4"><img class="img-fluid" src="/media/work/wrk_01_01.jpg" title="Screenshot 01" /></div>
+                                            <div class="col-4"><img class="img-fluid" src="/media/work/wrk_01_02.jpg" title="Screenshot 02" /></div>
+                                            <div class="col-4"><img class="img-fluid" src="/media/work/wrk_01_03.jpg" title="Screenshot 03" /></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="carousel-item">
+                            <div class="bg-img" style="background-image: url('/media/work/wrk_02_bg.jpg');"><img src="/media/work/wrk_02_bg.jpg" title="Ponybrown Plus Screenshot" /></div>
+                            <div class="container-fluid carousel-caption">
+                                <div class="row justify-content-between align-items-end">
+                                    <div class="col-sm-12 col-md-6 col-lg-8 mb-3">
+                                        <h2><span>PonybrownPlus</span></h2>
+                                        <a href="http://ponybrownplus.co.kr/" target="_blank"><i class="fas fa-external-link-square-alt"></i> <span>http://ponybrownplus.co.kr/</span></a>
+                                        <ul class="tag">
+                                            <li><span>PUBLISHING</span></li>
+                                            <li><span>FRONT-END</span></li>
+                                            <li><span>HTML/CSS</span></li>
+                                            <li><span>JQUERY</span></li>
+                                            <li><span>CAFE24MALL</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                                        <div class="row">
+                                            <div class="col-4"><img class="img-fluid" src="/media/work/wrk_02_01.jpg" title="Screenshot 01" /></div>
+                                            <div class="col-4"><img class="img-fluid" src="/media/work/wrk_02_02.jpg" title="Screenshot 02" /></div>
+                                            <div class="col-4"><img class="img-fluid" src="/media/work/wrk_02_03.jpg" title="Screenshot 03" /></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="carousel-item">
+                            <div class="bg-img" style="background-image: url('/media/work/wrk_03_bg.jpg');"><img src="/media/work/wrk_03_bg.jpg" title="Service UI Screenshot" /></div>
+                            <div class="container-fluid carousel-caption">
+                                <div class="row justify-content-between align-items-end">
+                                    <div class="col-sm-12 col-md-6 col-lg-8 mb-3">
+                                        <h2><span>Service UI</span></h2>
+                                        <a class="disabled" href="#" target="_blank"><i class="fas fa-external-link-square-alt"></i> <span>Internal Service Only</span></a>
+                                        <ul class="tag">
+                                            <li><span>UI/UX</span></li>
+                                            <li><span>PUBLISHING</span></li>
+                                            <li><span>FRONT-END</span></li>
+                                            <li><span>HTML/CSS</span></li>
+                                            <li><span>JQUERY</span></li>
+                                            <li><span>JUI-CHART</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                                        <div class="row">
+                                            <div class="col-4"><img class="img-fluid" src="/media/work/wrk_03_01.jpg" title="Screenshot 01" /></div>
+                                            <div class="col-4"><img class="img-fluid" src="/media/work/wrk_03_02.jpg" title="Screenshot 02" /></div>
+                                            <div class="col-4"><img class="img-fluid" src="/media/work/wrk_03_03.jpg" title="Screenshot 03" /></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#work_slide" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#work_slide" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </section>
+            </article>
+
+            <article id="about">
+                <h1><span>ABOUT</span></h1>
+                <div class="bg-img"><i class="fas fa-cat"></i></div>
+                <section>
+                    <div>
+                        <h2><i class="fas fa-swatchbook"></i> <span>DESIGN</span></h2>
+                        <ul class="tag">
+                            <li><span>UI/UX</span></li>
+                            <li><span>PHOTOSHOP</span></li>
+                            <li><span>ILLUSTRATOR</span></li>
+                            <li><span>PHOTOGRAPH</span></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2><i class="fas fa-file-code"></i> <span>PBLISHING</span></h2>
+                        <ul class="tag">
+                            <li><span>HTML</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>javascript</span></li>
+                            <li><span>ANIMATION</span></li>
+                            <li><span>RESPONSIVE</span></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2><i class="fas fa-laptop-code"></i> <span>FRONT-END</span></h2>
+                        <ul class="tag">
+                            <li><span>JQUERY</span></li>
+                            <li><span>BOOTSTRAP</span></li>
+                            <li><span>C3/D3</span></li>
+                            <li><span>JUI</span></li>
+                            <li><span>ANGULAR</span></li>
+                            <li><span>WORDPRESS</span></li>
+                            <li><span>KRPANO</span></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2><i class="fas fa-server"></i> <span>BACK-END</span></h2>
+                        <ul class="tag">
+                            <li><span>SPRING-BOOT</span></li>
+                            <li><span>SQL</span></li>
+                            <li><span>LINUX</span></li>
+                            <li><span>VIRTUALIZATION</span></li>
+                            <li><span>DOCKER</span></li>
+                            <li><span>AMBARI-HADOOP</span></li>
+                            <li><span>HARDWARE</span></li>
+                        </ul>
+                    </div>
+                </section>
+            </article>
+            </div>
+        </section>
+
+        <!-- Script -->
+        <script src="/js/jquery.slim.min.js"></script>
+        <script src="/js/bootstrap.bundle.min.js"></script>
+        <script src="/js/app.js"></script>
+    </body>
+
 </html>
